@@ -1,3 +1,5 @@
+[![ESLint](https://github.com/thomas-rooty/thomas-caron/actions/workflows/eslint.yml/badge.svg?branch=main)](https://github.com/thomas-rooty/thomas-caron/actions/workflows/eslint.yml)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
