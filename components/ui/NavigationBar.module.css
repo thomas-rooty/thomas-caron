@@ -1,0 +1,36 @@
+.nav {
+  background-color: #3b2323;
+  border-bottom: 1px solid #eaeaea;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 1rem;
+  height: 3rem;
+  width: 100%;
+}
+
+.nav__logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav__logo > a {
+  font-size: 0.9rem;
+  height: 3rem;
+  line-height: 3rem;
+}
+
+.nav__links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav__links a {
+  font-size: 0.9rem;
+  height: 3rem;
+  line-height: 3rem;
+  font-weight: 700;
+  margin-left: 3rem;
+}
