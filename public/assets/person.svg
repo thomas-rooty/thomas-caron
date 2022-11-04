@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+	<title>projects-svg</title>
+	<defs>
+		<image width="16" height="16" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAWxJREFUOE9lkwFRQ0EMRN8qAJRQFAAKqISigKKAQQFFATigVQA4KE7qYJnkcveP4ebP/Pm5ZLPJ7hfTEeD81krwZLyu673g2eJYCS2sfP6dG6EP8LnzukEiTphbOkhdac4pvD3yXdZ1eEerhDtgrR2XEri1KC7uzU7AWUVbf0UfY+uEfLGMkf2F1IoDr+HGKQp1VxANrWfmu5jWpPF5BF0mdII2oGhi+MG54BYfS6zkiFjeyTz0BTaSQT9pvQLbmmpaU84Y3DPrRvDZV+NYYFYknSvQMfaRQ1ZdJSzTA1+Ia9wnT/jvAF9EL2Um8wxFJW+M3kbjRu8e6b3xHoqh2GmXpS9SaAt+6VpU10dgNxgMI5UwTUbWiDDRZngoFUgGUftu2AOH7sB4rzBPZHF3V9pmMrqQIzLkjG4B9BzYi+7ptlR9ARgGaZz7yM10Ps47zBlGYLbYZMqxl/ETVLO/3k+Rl587zRvLT6PNIvALJ26oGSTHUHwAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+	</style>
+	<use id="person" href="#img1" transform="matrix(1,0,0,1,4,4)"/>
+</svg>

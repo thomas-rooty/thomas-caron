@@ -1,11 +1,12 @@
 import styles from './page.module.css'
+import Header from "../components/ui/Header";
 import Footer from "../components/ui/Footer";
 
 const Home = () => {
   return (
     <div className={styles.container}>
       <div className={styles.main}>
-        <h1>Homepage</h1>
+        <Header />
       </div>
       <footer>
         <Footer/>
