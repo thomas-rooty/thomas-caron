@@ -1,5 +1,5 @@
 .container {
-  padding: 0 2rem;
+  padding: 0;
   background-image: url('../public/assets/FlatLandscape.svg');
   background-position: bottom;
   background-repeat: no-repeat;
@@ -8,7 +8,7 @@
 }
 
 .main {
-  min-height: 94.5vh;
+  min-height: 100vh;
   padding: 0;
   flex: 1;
   display: flex;
