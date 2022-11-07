@@ -1,11 +1,11 @@
 import styles from './page.module.css'
-import Hero from "../../components/ui/Hero";
+import HeroAbout from "../../components/ui/HeroAbout";
 import AboutContent from "../../components/ui/AboutContent";
 
 const About = () => {
   return (
     <div className={styles.container}>
-      <Hero/>
+      <HeroAbout/>
       <AboutContent/>
     </div>
   )

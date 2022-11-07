@@ -1,9 +1,9 @@
-import styles from "./Hero.module.css";
+import styles from "./HeroAbout.module.css";
 import Image from "next/image";
 import LaDefenseBackground from "../../public/assets/LaDefenseBackground.png";
 import FooterButton from "./FooterButton";
 
-const Hero = () => {
+const HeroAbout = () => {
   return <>
     <div className={styles.hero}>
       <Image
@@ -30,4 +30,4 @@ const Hero = () => {
   </>;
 }
 
-export default Hero;
+export default HeroAbout;

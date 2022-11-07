@@ -1,6 +1,11 @@
+import styles from "./page.module.css";
+import HeroProjects from "../../components/ui/HeroProjects";
+
 const Projects = () => {
   return (
-    <h1>The Projects page</h1>
+    <div className={styles.container}>
+      <HeroProjects/>
+    </div>
   )
 }
 

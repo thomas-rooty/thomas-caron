@@ -1,0 +1,71 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.main > h1 {
+  color: black;
+}
+
+.heroImage {
+  margin-top: 3rem;
+  height: 450px;
+  width: 100vw;
+  object-fit: cover;
+  filter: brightness(45%);
+}
+
+.heroContent {
+  position: absolute;
+  top: 8rem;
+  left: 12rem;
+}
+
+.heroTitle {
+  color: white;
+  font-size: 2em;
+  font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 350;
+}
+
+.heroText {
+  color: white;
+  font-size: 1em;
+  font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 300;
+}
+
+.toolTitle {
+  margin-top: 6rem;
+}
+
+.toolTitle > h2 {
+  font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 300;
+}
+
+.tools {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-bottom: 0.5rem;
+}
+
+.tool {
+  background-color: #eaeaea;
+  color: black;
+  font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 300;
+  font-size: 0.8em;
+  border-radius: 0.75rem;
+  padding: 0.33rem 0.5rem;
+  cursor: default;
+}
+
+/* Add margin to every tools except the first one */
+.tool:not(:first-child) {
+  margin-left: 0.5rem;
+}
