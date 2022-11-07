@@ -1,6 +1,7 @@
 import styles from "./HeroProjects.module.css";
 import Image from "next/image";
 import ProjectsBackground from "../../public/assets/ProjectsBackground.png";
+import ToolButton from "./ToolButton";
 
 const HeroProjects = () => {
   return <>
@@ -19,18 +20,10 @@ const HeroProjects = () => {
             <h2>Toolkit</h2>
           </div>
           <div className={styles.tools}>
-            <div className={styles.tool}>HTML</div>
-            <div className={styles.tool}>CSS</div>
-            <div className={styles.tool}>JavaScript</div>
-            <div className={styles.tool}>TypeScript</div>
-            <div className={styles.tool}>Python</div>
+            <ToolButton tools={["HTML", "CSS", "JavaScript", "TypeScript", "Python"]}/>
           </div>
           <div className={styles.tools}>
-            <div className={styles.tool}>Next</div>
-            <div className={styles.tool}>React</div>
-            <div className={styles.tool}>ThreeJS (R3F)</div>
-            <div className={styles.tool}>Node</div>
-            <div className={styles.tool}>Express</div>
+            <ToolButton tools={["Next", "React", "ThreeJS (R3F)", "Node", "Express"]}/>
           </div>
         </div>
       </div>

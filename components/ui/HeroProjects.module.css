@@ -53,19 +53,3 @@
   justify-content: flex-start;
   margin-bottom: 0.5rem;
 }
-
-.tool {
-  background-color: #eaeaea;
-  color: black;
-  font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
-  font-weight: 300;
-  font-size: 0.8em;
-  border-radius: 0.75rem;
-  padding: 0.33rem 0.5rem;
-  cursor: default;
-}
-
-/* Add margin to every tools except the first one */
-.tool:not(:first-child) {
-  margin-left: 0.5rem;
-}
