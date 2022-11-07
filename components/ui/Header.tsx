@@ -1,5 +1,5 @@
 import styles from './Header.module.css'
-import Link from 'next/link'
+import ButtonWithImg from "./ButtonWithImg";
 
 const Header = () => {
   return (
@@ -10,18 +10,8 @@ const Header = () => {
           <p className={styles.desc}>Fullstack Web Developer, 3D Programmer, <br/>Street Trial Athlete</p>
         </div>
         <div className={styles.buttons}>
-          <Link className={styles.button} href="/projects">
-            <div className={styles.button__content}>
-              <p className={styles.button__text}>Projects</p>
-              <img className={styles.button__icon} src="/assets/projects.svg" alt="Projects icon"/>
-            </div>
-          </Link>
-          <Link className={styles.button} href="/about">
-            <div className={styles.button__content}>
-              <p className={styles.button__text}>About</p>
-              <img className={styles.button__icon} src="/assets/person.svg" alt="About icon"/>
-            </div>
-          </Link>
+          <ButtonWithImg href="/projects" text="Projects" imgSrc="/assets/projects.svg" imgAlt="Projects"/>
+          <ButtonWithImg href="/about" text="About" imgSrc="/assets/about.svg" imgAlt="About"/>
         </div>
       </div>
     </header>
