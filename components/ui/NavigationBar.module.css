@@ -2,7 +2,6 @@
   position: fixed;
   top: 0;
   background-color: #3b2323;
-  border-bottom: 1px solid #eaeaea;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
