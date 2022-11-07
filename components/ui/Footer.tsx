@@ -1,29 +1,14 @@
 import styles from './Footer.module.css'
+import FooterButton from "./FooterButton";
 
 const Footer = () => {
   return (
     <footer className={styles.footer}>
       <div className={styles.footer__links}>
-        <div className={styles.footer__icon}>
-          <a href="mailto:tc.caron91@gmail.com">
-            <img className={styles.icon} src={"/assets/mail.svg"} alt="Mail"/>
-          </a>
-        </div>
-        <div className={styles.footer__icon}>
-          <a href="https://github.com/thomas-rooty" target={"_blank"} rel="noreferrer">
-            <img className={styles.icon} src={"/assets/github.svg"} alt="Github"/>
-          </a>
-        </div>
-        <div className={styles.footer__icon}>
-          <a href="https://www.linkedin.com/in/dev-thomas-caron" target={"_blank"} rel="noreferrer">
-            <img className={styles.icon} src={"/assets/linkedin.svg"} alt="LinkedIn"/>
-          </a>
-        </div>
-        <div className={styles.footer__icon}>
-          <a href="https://www.instagram.com/tho_macaron">
-            <img className={styles.icon} src={"/assets/instagram.svg"} alt="Instagram"/>
-          </a>
-        </div>
+        <FooterButton href="mailto:tc.caron91@gmail.com" imgSrc={"/assets/mail.svg"} imgAlt="Mail"/>
+        <FooterButton href="https://github.com/thomas-rooty" imgSrc={"/assets/github.svg"} imgAlt="Github"/>
+        <FooterButton href="https://www.linkedin.com/in/dev-thomas-caron" imgSrc={"/assets/linkedin.svg"} imgAlt="LinkedIn"/>
+        <FooterButton href={"https://www.instagram.com/tho_macaron"} imgSrc={"/assets/instagram.svg"} imgAlt="Instagram"/>
       </div>
     </footer>
   )
