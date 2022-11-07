@@ -27,7 +27,7 @@
 }
 
 .name, .desc {
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
   color: black;
   font-weight: 300;
   margin: 0;

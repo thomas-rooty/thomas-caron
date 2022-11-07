@@ -1,0 +1,55 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.main > h1 {
+  color: black;
+}
+
+.heroImage {
+  margin-top: 3rem;
+  height: 450px;
+  width: 100vw;
+  object-fit: cover;
+  filter: brightness(45%);
+}
+
+.heroContent {
+  position: absolute;
+  top: 8rem;
+  left: 12rem;
+}
+
+.heroTitle {
+  color: white;
+  font-size: 2em;
+  font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 350;
+}
+
+.heroText {
+  color: white;
+  font-size: 1em;
+  font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 300;
+}
+
+.heroLinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-left: -0.33rem; /* used to compensate for the margin on the first link */
+  margin-top: 6rem;
+}
+
+.mainContent {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+  margin-left: 12rem;
+  margin-right: 12rem;
+}
