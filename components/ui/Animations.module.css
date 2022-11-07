@@ -1,0 +1,27 @@
+/* Fade In Animation base class */
+.cssanimation, .cssanimation span {
+  animation-duration: 1.5s;
+  animation-fill-mode: both;
+}
+
+.cssanimation span { display: inline-block }
+
+/* Fade In from Bottom animation */
+.fadeInBottom { animation-name: fadeInBottom }
+@keyframes fadeInBottom {
+  from {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  to { opacity: 1 }
+}
+
+/* Fade In from Left animation */
+.fadeInLeft { animation-name: fadeInLeft }
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-20%);
+  }
+  to { opacity: 1 }
+}

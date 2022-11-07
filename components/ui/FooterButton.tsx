@@ -1,4 +1,5 @@
 import styles from './FooterButton.module.css';
+import a from './Animations.module.css'
 
 interface FooterButtonProps {
   href: string;
@@ -8,7 +9,7 @@ interface FooterButtonProps {
 
 const FooterButton = ({ href, imgSrc, imgAlt }: FooterButtonProps) => {
   return (
-    <div className={styles.footer__icon}>
+    <div className={`${styles.footer__icon} ${a.cssanimation} ${a.sequence} ${a.fadeInBottom}`}>
       <a href={href}>
         <img className={styles.icon} src={imgSrc} alt={imgAlt}/>
       </a>
