@@ -14,7 +14,7 @@ const Projects = () => {
           image="/assets/TricyclePortfolio.png"
           link="https://3d.tcaron.fr/"
           github="https://github.com/thomas-rooty/tricycle-portfolio"
-          tools={["Next.js", "R3/Fiber", "Three.js", "Zustand", "R3/Cannon"]}
+          tools={["Next.js", "R3/Fiber", "R3/Cannon", "Zustand"]}
         />
         <Project
           title="LACXFILMS"
@@ -41,7 +41,7 @@ const Projects = () => {
           image="/assets/NextJSWorld.png"
           link="https://nxtjs-3d-third-person-world.vercel.app/"
           github="https://github.com/thomas-rooty/nxtjs-3d-third-person-world"
-          tools={["Next.js", "R3/Fiber", "Three.js", "Zustand", "R3/Cannon"]}
+          tools={["Next.js", "R3/Fiber", "R3/Cannon", "Zustand"]}
         />
         <Project
           title="Space Immersion"
