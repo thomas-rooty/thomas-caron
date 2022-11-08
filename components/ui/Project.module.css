@@ -1,0 +1,64 @@
+.container > * {
+  color: #161616;
+  font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+  margin: 0 auto;
+  font-weight: 400;
+}
+
+.container:not(:first-child) {
+  margin-top: 12rem;
+}
+
+.title {
+  font-size: 1.75rem;
+  font-weight: 400;
+  line-height: 1.29;
+  letter-spacing: 0;
+}
+
+.project {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 1100px;
+}
+
+.leftSection {
+  width: 50%;
+}
+
+.details {
+  text-justify: auto;
+}
+
+.linksSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.rightSection {
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.titleSection {
+  border-left: 4px solid #A7C7E7;
+  padding-left: 1rem;
+  margin-bottom: 3rem;
+}
+
+.tools {
+  display: flex;
+  flex-direction: row;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.33);
+}
