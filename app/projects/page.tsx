@@ -44,6 +44,15 @@ const Projects = () => {
           tools={["Next.js", "R3/Fiber", "R3/Cannon", "Zustand"]}
         />
         <Project
+          title="Penguin Icefield"
+          description="A 3D icefield that you can discover while being a cute penguin."
+          details="This website has been made by me and my girlfriend, so we can learn together about the 3D animation process and the web integration that follows. It has been built with React Three Fiber, Three.js and @react-three/cannon. It is a 3D game-alike interactive website that allows you to navigate through an icefield and discover a cute penguin fully modelized, rigged and animated by my beloved half!"
+          image="/assets/PenguinIcefield.png"
+          link="https://penguin.tcaron.fr/"
+          github="https://github.com/thomas-rooty/penguin-icefield"
+          tools={["Next.js", "R3/Fiber", "R3/Cannon", "Zustand"]}
+        />
+        <Project
           title="Space Immersion"
           description="A 3D representation of the solar system built with Three.js."
           details="A portfolio website, with an interactive 3D view of the solar system, with textures directly coming from NASA's database (the public one, of course). You can choose a planet and see its details by zooming in and out of it. I made this accross 2 weeks to learn more about 3D rendering in a web context, that was my first time using React Three Fiber and Three.js."
