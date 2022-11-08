@@ -10,7 +10,7 @@ interface FooterButtonProps {
 const FooterButton = ({ href, imgSrc, imgAlt }: FooterButtonProps) => {
   return (
     <div className={`${styles.footer__icon} ${a.cssanimation} ${a.sequence} ${a.fadeInBottom}`}>
-      <a href={href}>
+      <a href={href} target="_blank" rel="noreferrer">
         <img className={styles.icon} src={imgSrc} alt={imgAlt}/>
       </a>
     </div>
