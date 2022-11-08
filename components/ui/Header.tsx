@@ -11,8 +11,8 @@ const Header = () => {
           <p className={styles.desc}>Fullstack Web Developer, 3D Programmer, <br/>Street Trial Athlete</p>
         </div>
         <div className={`${styles.buttons} ${a.cssanimation} ${a.sequence} ${a.fadeInLeft}`}>
-          <ButtonWithImg href="/projects" text="Projects" imgSrc="/assets/projects.svg" imgAlt="Projects"/>
-          <ButtonWithImg href="/about" text="About" imgSrc="/assets/about.svg" imgAlt="About"/>
+          <ButtonWithImg href="/projects" target={''} text="Projects" imgSrc="/assets/projects.svg" imgAlt="Projects"/>
+          <ButtonWithImg href="/about" target={''} text="About" imgSrc="/assets/about.svg" imgAlt="About"/>
         </div>
       </div>
     </header>

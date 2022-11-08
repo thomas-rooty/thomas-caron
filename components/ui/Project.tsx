@@ -28,8 +28,8 @@ const Project = ({title, description, details, image, link, github, tools}: Proj
             <p className={styles.details}>{details}</p>
           </div>
           <div className={styles.linksSection}>
-            <ButtonWithImg href={github} text="GitHub Project" imgSrc="/assets/github.svg" imgAlt="Github"/>
-            <ButtonWithImg href={link} text="Live Site" imgSrc="/assets/link.svg" imgAlt="Link"/>
+            <ButtonWithImg href={github} target={'_blank'} text="GitHub Project" imgSrc="/assets/github.svg" imgAlt="Github"/>
+            <ButtonWithImg href={link} target={'_blank'} text="Live Site" imgSrc="/assets/link.svg" imgAlt="Link"/>
           </div>
         </div>
         <div className={styles.rightSection}>
