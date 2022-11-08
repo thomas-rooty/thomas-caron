@@ -43,6 +43,15 @@ const Projects = () => {
           github="https://github.com/thomas-rooty/nxtjs-3d-third-person-world"
           tools={["Next.js", "R3/Fiber", "Three.js", "Zustand", "R3/Cannon", "Vercel"]}
         />
+        <Project
+          title="Space Immersion"
+          description="A 3D representation of the solar system built with Three.js."
+          details="A portfolio website, with an interactive 3D view of the solar system. You can choose a planet and see its details by zooming in and out of it. I made this accross 2 weeks to learn more about 3D rendering in a web context, that was my first time using React Three Fiber and Three.js."
+          image="/assets/SpaceImmersion.png"
+          link="https://3dxp.tcaron.fr"
+          github="https://github.com/thomas-rooty/immersiveXP"
+          tools={["React", "R3/Fiber", "Three.js", "Netlify"]}
+        />
       </div>
     </div>
   )
