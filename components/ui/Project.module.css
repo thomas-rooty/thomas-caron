@@ -29,7 +29,8 @@
 }
 
 .details {
-  text-justify: auto;
+  text-align: justify;
+  text-justify: inter-character;
 }
 
 .linksSection {
