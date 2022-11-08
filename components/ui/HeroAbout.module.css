@@ -53,3 +53,11 @@
   margin-left: 12rem;
   margin-right: 12rem;
 }
+
+@media screen and (max-width: 1280px) {
+  .heroContent {
+    left: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}

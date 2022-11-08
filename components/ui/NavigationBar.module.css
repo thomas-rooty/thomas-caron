@@ -36,3 +36,10 @@
   font-weight: 700;
   margin-left: 3rem;
 }
+
+/* Screen smaller than 1080px */
+@media screen and (max-width: 1280px) {
+  .nav__links a {
+    margin-left: 1rem;
+  }
+}

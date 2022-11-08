@@ -74,3 +74,10 @@
   height: 1.5rem;
   filter: invert(1);
 }
+
+/* Screen smaller than 1080px */
+@media screen and (max-width: 1280px) {
+  .content {
+    width: 66%;
+  }
+}

@@ -54,3 +54,12 @@
   justify-content: flex-start;
   margin-bottom: 0.5rem;
 }
+
+@media screen and (max-width: 1280px) {
+  .heroContent {
+    top: 5rem;
+    left: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}

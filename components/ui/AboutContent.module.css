@@ -13,3 +13,9 @@
   font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
   font-weight: 300;
 }
+
+@media screen and (max-width: 1280px) {
+  .container {
+    width: 96vw;
+  }
+}

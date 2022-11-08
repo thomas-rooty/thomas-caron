@@ -7,6 +7,7 @@
   border-radius: 0.75rem;
   padding: 0.33rem 0.5rem;
   cursor: default;
+  white-space: nowrap;
 }
 
 /* Add margin to every tools except the first one */

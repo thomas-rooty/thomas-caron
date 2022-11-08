@@ -14,7 +14,7 @@ const Projects = () => {
           image="/assets/TricyclePortfolio.png"
           link="https://3d.tcaron.fr/"
           github="https://github.com/thomas-rooty/tricycle-portfolio"
-          tools={["Next.js", "R3/Fiber", "Three.js", "Zustand", "R3/Cannon", "Vercel"]}
+          tools={["Next.js", "R3/Fiber", "Three.js", "Zustand", "R3/Cannon"]}
         />
         <Project
           title="LACXFILMS"
@@ -23,7 +23,7 @@ const Projects = () => {
           image="/assets/LacxFilms.png"
           link="https://lacxfilms.com/"
           github="https://github.com/thomas-rooty/klacroix"
-          tools={["Next.js", "Formspree", "React Parallax", "Parcel", "Netlify"]}
+          tools={["Next.js", "Formspree", "React Parallax", "Parcel"]}
         />
         <Project
           title="Quentin HEBERT's Website"
@@ -32,7 +32,7 @@ const Projects = () => {
           image="/assets/QuentinHebert.png"
           link="https://quentinmaker.fr/"
           github="https://github.com/thomas-rooty/qhebert-portfolio/"
-          tools={["Next.js", "Formspree", "React Parallax", "Parcel", "Netlify"]}
+          tools={["Next.js", "Formspree", "React Parallax", "Parcel"]}
         />
         <Project
           title="NextJS Third Person View World"
@@ -41,7 +41,7 @@ const Projects = () => {
           image="/assets/NextJSWorld.png"
           link="https://nxtjs-3d-third-person-world.vercel.app/"
           github="https://github.com/thomas-rooty/nxtjs-3d-third-person-world"
-          tools={["Next.js", "R3/Fiber", "Three.js", "Zustand", "R3/Cannon", "Vercel"]}
+          tools={["Next.js", "R3/Fiber", "Three.js", "Zustand", "R3/Cannon"]}
         />
         <Project
           title="Space Immersion"
@@ -50,7 +50,7 @@ const Projects = () => {
           image="/assets/SpaceImmersion.png"
           link="https://3dxp.tcaron.fr"
           github="https://github.com/thomas-rooty/immersiveXP"
-          tools={["React", "R3/Fiber", "Three.js", "Netlify"]}
+          tools={["React", "R3/Fiber", "Three.js"]}
         />
       </div>
     </div>
