@@ -34,7 +34,13 @@
   height: 3rem;
   line-height: 3rem;
   font-weight: 700;
-  margin-left: 3rem;
+  margin-left: 1rem;
+  padding: 0 1rem;
+  transition: all .2s ease-in-out;
+}
+
+.nav__links a:hover {
+  background-color: #180e0e;
 }
 
 /* Screen smaller than 1080px */

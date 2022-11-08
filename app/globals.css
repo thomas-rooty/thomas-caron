@@ -1,3 +1,4 @@
+/*noinspection CssInvalidPropertyValue*/
 html,
 body {
   position: relative;
@@ -5,6 +6,8 @@ body {
   margin: 0;
   font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
   background-color: #fffcfc;
+  overflow-x: hidden;
+  overflow: overlay;
 }
 
 a {
@@ -14,6 +17,17 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-thumb {
+  background: #3b2323;
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3b2323;
 }
 
 @media (prefers-color-scheme: dark) {
