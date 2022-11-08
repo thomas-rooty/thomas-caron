@@ -10,7 +10,7 @@ const Projects = () => {
         <Project
           title="3D Interactive Portfolio"
           description="A 3D interactive portfolio built with React Three Fiber and Three.js."
-          details="Made for fun, experimentation, and to learn more about 3D rendering in a web context. This website has been built with React Three Fiber, Three.js and @react-three/cannon. It is a 3d dimensional game-alike interactive portfolio that allows you to navigate through the projects and see the details of each project using a controllable tricycle. It also has a dark mode and a light mode, and many other fun features that you can discover by yourself."
+          details="Made for fun, experimentation, and to learn more about 3D rendering in a web context. This website has been built with React Three Fiber, Three.js and @react-three/cannon. It is a 3D game-alike interactive portfolio that allows you to navigate through the projects and see the details of each project using a controllable tricycle. It also has a dark mode and a light mode, and many other fun features that you can discover by yourself."
           image="/assets/TricyclePortfolio.png"
           link="https://3d.tcaron.fr/"
           github="https://github.com/thomas-rooty/tricycle-portfolio"
