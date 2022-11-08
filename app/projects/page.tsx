@@ -19,11 +19,29 @@ const Projects = () => {
         <Project
           title="LACXFILMS"
           description="A website for an independent filmmaker, pilot drone, and photographer."
-          details="This website was built for a friend of mine who is a filmmaker, pilot drone, and photographer. It is a simple website that allows him to showcase his work and contact him."
+          details="This website was built for a friend of mine who is a filmmaker, pilot drone, and photographer. The videos showcased on the website are grabbed on a private playlist of his YouTube channel when the website is loading, which allows Kevin to be independant when he wants to showcase new work. It is a simple website that allows him to showcase his work and contact him."
           image="/assets/LacxFilms.png"
           link="https://lacxfilms.com/"
           github="https://github.com/thomas-rooty/klacroix"
           tools={["Next.js", "Formspree", "React Parallax", "Parcel", "Netlify"]}
+        />
+        <Project
+          title="Quentin HEBERT's Website"
+          description="A portfolio website for a photographer."
+          details="Same as the previous project, this website was built for a friend of mine who is a photographer. The design was made by him, and I coded it, you can even see some street trial pictures! Make sure to contact him if you need a photographer for your next project."
+          image="/assets/QuentinHebert.png"
+          link="https://quentinmaker.fr/"
+          github="https://github.com/thomas-rooty/qhebert-portfolio/"
+          tools={["Next.js", "Formspree", "React Parallax", "Parcel", "Netlify"]}
+        />
+        <Project
+          title="NextJS Third Person View World"
+          description="A 3D world built with NextJS, R3F, Three.JS and React Three Cannon."
+          details="This boilerplate was made to start off a new project with a controllable character, 3rd person camera and collision. It is a simple world with a few objects and a controllable sphere that can move around kinematically. It is a good starting point for a game-like project with a flying or walking base character."
+          image="/assets/NextJSWorld.png"
+          link="https://nxtjs-3d-third-person-world.vercel.app/"
+          github="https://github.com/thomas-rooty/nxtjs-3d-third-person-world"
+          tools={["Next.js", "R3/Fiber", "Three.js", "Zustand", "R3/Cannon", "Vercel"]}
         />
       </div>
     </div>

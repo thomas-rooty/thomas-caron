@@ -57,8 +57,11 @@
 }
 
 .image {
-  width: 100%;
+  display: block;
+  width: 99%;
   height: auto;
   object-fit: cover;
-  box-shadow: 0 0 40px rgba(0, 0, 0, 0.33);
+  -webkit-box-shadow: 0 0 40px 0 rgba(0,0,0,0.4);
+  -moz-box-shadow: 0 0 40px 0 rgba(0,0,0,0.4);
+  box-shadow: 0 0 40px 0 rgba(0,0,0,0.4);
 }

@@ -8,6 +8,7 @@
 
 .hero {
   margin-bottom: 4rem;
+  overflow: hidden;
 }
 
 .heroImage {
