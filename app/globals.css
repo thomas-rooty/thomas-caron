@@ -17,6 +17,7 @@ a {
 
 * {
   box-sizing: border-box;
+  font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
 ::-webkit-scrollbar {
@@ -28,14 +29,4 @@ a {
 }
 ::-webkit-scrollbar-thumb:hover {
   background: #3b2323;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
 }
