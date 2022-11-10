@@ -10,6 +10,14 @@ body {
   overflow: overlay;
 }
 
+@font-face {
+  font-family: "IBM Plex Sans";
+  /*noinspection CssUnknownTarget*/
+  src: url("/fonts/IBM_Plex_Sans/IBMPlexSans-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
 a {
   color: white;
   text-decoration: none;
@@ -17,7 +25,7 @@ a {
 
 * {
   box-sizing: border-box;
-  font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif;
 }
 
 ::-webkit-scrollbar {
