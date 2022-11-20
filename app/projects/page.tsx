@@ -26,6 +26,15 @@ const Projects = () => {
           tools={["Next.js", "Formspree", "React Parallax", "Parcel"]}
         />
         <Project
+          title="NEOIM Sentry"
+          description="A dashboard that displays NEO (Near Earth Object) data, powered by NASA's Sentry System."
+          details="This dashboard was built purely for experimentation and learning purposes. It is a dashboard that displays NEO (Near Earth Object) data and that can predict the star types following its values using a trained model made on Tensorflow (DeepLearning), powered by NASA's Sentry System. It is a simple dashboard that allows you to see the NEOs that are currently in the sky, above our heads. It also allows you to see the NEOs that are going to pass by Earth in the next years."
+          image="/assets/NeoimSentry.png"
+          link="https://neoim-sentry.vercel.app/"
+          github="https://github.com/thomas-rooty/neoim-sentry"
+          tools={["Next.js", "NASA Sentry API", "Tensorflow"]}
+        />
+        <Project
           title="Quentin HEBERT's Website"
           description="A portfolio website for a photographer."
           details="Same as the previous project, this website was built for a friend of mine who is a photographer. The design was made by him, and I coded it, you can even see some street trial pictures! Make sure to contact him if you need a photographer for your next project."
