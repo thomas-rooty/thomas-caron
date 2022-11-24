@@ -44,7 +44,7 @@
 }
 
 /* Screen smaller than 1080px */
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1350px) {
   .nav {
     padding: 0 0.5rem;
   }

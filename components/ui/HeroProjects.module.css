@@ -55,7 +55,7 @@
   margin-bottom: 0.5rem;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1350px) {
   .heroContent {
     top: 5rem;
     left: 0;
