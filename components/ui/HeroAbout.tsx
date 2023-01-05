@@ -1,5 +1,6 @@
 import styles from "./HeroAbout.module.css";
 import Image from "next/image";
+// @ts-ignore
 import LaDefenseBackground from "../../public/assets/LaDefenseBackground.png";
 import FooterButton from "./FooterButton";
 
