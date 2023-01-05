@@ -8,7 +8,7 @@ const ToolButton = ({tools}: ToolButtonProps) => {
   // Create a button for each tool in tools array
   return (
     <>
-      {tools.map((tool, index) => (
+      {tools.map((tool) => (
         <div key={tool} className={styles.tool}>{tool}</div>
       ))}
     </>
