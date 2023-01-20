@@ -54,7 +54,7 @@
   margin-right: 12rem;
 }
 
-@media screen and (max-width: 1350px) {
+@media screen and (max-width: 1050px) {
   .heroContent {
     left: 0;
     padding-left: 1rem;

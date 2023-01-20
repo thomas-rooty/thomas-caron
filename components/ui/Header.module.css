@@ -76,7 +76,7 @@
 }
 
 /* Screen smaller than 1080px */
-@media screen and (max-width: 1350px) {
+@media screen and (max-width: 1050px) {
   .content {
     width: 66%;
   }
