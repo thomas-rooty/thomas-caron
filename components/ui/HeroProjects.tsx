@@ -1,7 +1,6 @@
 import styles from "./HeroProjects.module.css";
 import a from "./Animations.module.css";
 import Image from "next/image";
-// @ts-ignore
 import ProjectsBackground from "../../public/assets/ProjectsBackground.png";
 import ToolButton from "./ToolButton";
 
