@@ -26,6 +26,15 @@ const Projects = () => {
           tools={["Next.js", "Formspree", "React Parallax", "Parcel"]}
         />
         <Project
+          title="Spacescape"
+          description="A survival game set in the year 2300 where the Earth has become uninhabitable and the remaining survivors have fled to space in search of a new habitable planet"
+          details="As you begin your new journey on this planet, you embark on a mission to collect soil, air, and water samples to analyze and determine if the planet is viable for humanity. The tutorial phase of the game will teach you how to analyze the soil. The soil appears poor and dangerous, Jacob will have to fight to get the ship back in working order until he can take off from this planet and find another habitable planet. Jacob's survival depends on your ability to use limited resources efficiently and your determination to find a solution to leave this planet. Get ready for an epic adventure as you fight for survival in the vast reaches of space."
+          image="/assets/SpaceScape.png"
+          link="https://spacescape.vercel.app/"
+          github="https://github.com/thomas-rooty/spacescape"
+          tools={["Next.js", "R3/Fiber", "Zustand", "Blender"]}
+        />
+        <Project
           title="NEOIM Sentry"
           description="A dashboard that displays NEO (Near Earth Object) data, powered by NASA's Sentry System."
           details="This dashboard was built purely for experimentation and learning purposes. It is a dashboard that displays NEO (Near Earth Object) data and that can predict the star types following its values using a trained model made on Tensorflow (DeepLearning), powered by NASA's Sentry System. It is a simple dashboard that allows you to see the NEOs that are currently in the sky, above our heads. It also allows you to see the NEOs that are going to pass by Earth in the next years."
