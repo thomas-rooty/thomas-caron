@@ -1,11 +1,11 @@
-import styles from "./page.module.css";
-import HeroProjects from "../../components/ui/HeroProjects";
-import Project from "../../components/ui/Project";
+import styles from './page.module.css'
+import HeroProjects from '../../components/ui/HeroProjects'
+import Project from '../../components/ui/Project'
 
 const Projects = () => {
   return (
     <div className={styles.container}>
-      <HeroProjects/>
+      <HeroProjects />
       <div className={styles.projects}>
         <Project
           title="3D Interactive Portfolio"
@@ -14,7 +14,7 @@ const Projects = () => {
           image="/assets/TricyclePortfolio.png"
           link="https://3d.tcaron.fr/"
           github="https://github.com/thomas-rooty/tricycle-portfolio"
-          tools={["Next.js", "R3/Fiber", "R3/Cannon", "Zustand"]}
+          tools={['Next.js', 'R3/Fiber', 'R3/Cannon', 'Zustand']}
         />
         <Project
           title="LACXFILMS"
@@ -23,7 +23,7 @@ const Projects = () => {
           image="/assets/LacxFilms.png"
           link="https://lacxfilms.com/"
           github="https://github.com/thomas-rooty/klacroix"
-          tools={["Next.js", "Formspree", "React Parallax", "Parcel"]}
+          tools={['Next.js', 'Formspree', 'React Parallax', 'Parcel']}
         />
         <Project
           title="Spacescape"
@@ -32,7 +32,7 @@ const Projects = () => {
           image="/assets/SpaceScape.png"
           link="https://spacescape.vercel.app/"
           github="https://github.com/thomas-rooty/spacescape"
-          tools={["Next.js", "R3/Fiber", "Zustand", "Blender"]}
+          tools={['Next.js', 'R3/Fiber', 'Zustand', 'Blender']}
         />
         <Project
           title="NEOIM Sentry"
@@ -41,7 +41,7 @@ const Projects = () => {
           image="/assets/NeoimSentry.png"
           link="https://neoim-sentry.vercel.app/"
           github="https://github.com/thomas-rooty/neoim-sentry"
-          tools={["Next.js", "NASA Sentry API", "Tensorflow"]}
+          tools={['Next.js', 'NASA Sentry API', 'Tensorflow']}
         />
         <Project
           title="Quentin HEBERT's Website"
@@ -50,7 +50,7 @@ const Projects = () => {
           image="/assets/QuentinHebert.png"
           link="https://quentinmaker.fr/"
           github="https://github.com/thomas-rooty/qhebert-portfolio/"
-          tools={["Next.js", "Formspree", "React Parallax", "Parcel"]}
+          tools={['Next.js', 'Formspree', 'React Parallax', 'Parcel']}
         />
         <Project
           title="NextJS Third Person View World"
@@ -59,7 +59,7 @@ const Projects = () => {
           image="/assets/NextJSWorld.png"
           link="https://nxtjs-3d-third-person-world.vercel.app/"
           github="https://github.com/thomas-rooty/nxtjs-3d-third-person-world"
-          tools={["Next.js", "R3/Fiber", "R3/Cannon", "Zustand"]}
+          tools={['Next.js', 'R3/Fiber', 'R3/Cannon', 'Zustand']}
         />
         <Project
           title="Penguin Icefield"
@@ -68,7 +68,7 @@ const Projects = () => {
           image="/assets/PenguinIcefield.png"
           link="https://penguin.tcaron.fr/"
           github="https://github.com/thomas-rooty/penguin-icefield"
-          tools={["Next.js", "R3/Fiber", "R3/Cannon", "Zustand"]}
+          tools={['Next.js', 'R3/Fiber', 'R3/Cannon', 'Zustand']}
         />
         <Project
           title="Space Immersion"
@@ -77,11 +77,11 @@ const Projects = () => {
           image="/assets/SpaceImmersion.png"
           link="https://3dxp.tcaron.fr"
           github="https://github.com/thomas-rooty/immersiveXP"
-          tools={["React", "R3/Fiber", "Three.js"]}
+          tools={['React', 'R3/Fiber', 'Three.js']}
         />
       </div>
     </div>
   )
 }
 
-export default Projects;
+export default Projects
