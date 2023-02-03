@@ -1,6 +1,6 @@
 import styles from './page.module.css'
-import Header from "../components/ui/Header";
-import Footer from "../components/ui/Footer";
+import Header from '../components/ui/Header'
+import Footer from '../components/ui/Footer'
 
 const Home = () => {
   return (
@@ -9,10 +9,10 @@ const Home = () => {
         <Header />
       </div>
       <footer>
-        <Footer/>
+        <Footer />
       </footer>
     </div>
   )
 }
 
-export default Home;
+export default Home

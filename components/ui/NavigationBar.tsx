@@ -10,15 +10,11 @@ const NavigationBar = () => {
         </Link>
       </div>
       <div className={styles.nav__links}>
-        <Link href="/projects">
-          PROJECTS
-        </Link>
-        <Link href="/about">
-          ABOUT
-        </Link>
+        <Link href={"/projects"}>PROJECTS</Link>
+        <Link href={"/about"}>ABOUT</Link>
       </div>
     </nav>
   )
 }
 
-export default NavigationBar;
+export default NavigationBar
