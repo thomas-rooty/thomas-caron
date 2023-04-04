@@ -8,6 +8,15 @@ const Projects = () => {
       <HeroProjects />
       <div className={styles.projects}>
         <Project
+          title="TrackWatch"
+          description="A website that allows you to track your favorite TV shows and never miss an episode again."
+          details="TrackWatch is an app that helps you monitor your favorite shows, movies, and anime. With TrackWatch, you'll never forget where you left off, how many episodes you have left, or when the next episode is. Plus, with our progress tracker, you'll always know how close you are to completing your favorite series."
+          image="/assets/TrackWatch.png"
+          link="https://trackwatch.live/"
+          github="https://github.com/thomas-rooty/trackwatch"
+          tools={['Next.js', 'Zustand', 'Supabase']}
+        />
+        <Project
           title="3D Interactive Portfolio"
           description="A 3D interactive portfolio built with React Three Fiber and Three.js."
           details="Made for fun, experimentation, and to learn more about 3D rendering in a web context. This website has been built with React Three Fiber, Three.js and @react-three/cannon. It is a 3D game-alike interactive portfolio that allows you to navigate through the projects and see the details of each project using a controllable tricycle. It also has a dark mode and a light mode, and many other fun features that you can discover by yourself."
