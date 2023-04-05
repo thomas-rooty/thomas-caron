@@ -12,7 +12,7 @@ const HeroProjects = () => {
         <div className={styles.heroContent}>
           <h1 className={styles.heroTitle}>Featured Work</h1>
           <p className={styles.heroText}>
-            Developing 3D interactive experiences for the web, or simpler websites.
+            Developing web applications, 3D interactive web experiences, or just simpler websites.
             <br />
             Check my GitHub for more projects.
           </p>
