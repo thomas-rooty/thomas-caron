@@ -35,6 +35,15 @@ const Projects = () => {
           tools={['Next.js', 'Formspree', 'React Parallax', 'Parcel']}
         />
         <Project
+          title="Spacescape Novel"
+          description="A survival game set in the year 2300 where the Earth has become uninhabitable and the remaining survivors have fled to space in search of a new habitable planet"
+          details="Spacescape Novel is an immersive mobile game where players take on the role of a character stranded on an anonymous planet. The game revolves around gathering resources for survival and connecting with other survivors."
+          image="/assets/SpaceScape.png"
+          link="https://spacescape.vercel.app/"
+          github="https://github.com/thomas-rooty/spacescape-novel"
+          tools={['React Native', 'Zustand', 'Expo', 'Express', 'MongoDB']}
+        />
+        <Project
           title="Spacescape"
           description="A survival game set in the year 2300 where the Earth has become uninhabitable and the remaining survivors have fled to space in search of a new habitable planet"
           details="As you begin your new journey on this planet, you embark on a mission to collect soil, air, and water samples to analyze and determine if the planet is viable for humanity. The tutorial phase of the game will teach you how to analyze the soil. The soil appears poor and dangerous, Jacob will have to fight to get the ship back in working order until he can take off from this planet and find another habitable planet. Jacob's survival depends on your ability to use limited resources efficiently and your determination to find a solution to leave this planet. Get ready for an epic adventure as you fight for survival in the vast reaches of space."
