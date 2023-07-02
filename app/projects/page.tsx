@@ -17,6 +17,15 @@ const Projects = () => {
           tools={['Next.js', 'Zustand', 'Supabase']}
         />
         <Project
+          title="Spacescape"
+          description="A survival game set in the year 2300 where the Earth has become uninhabitable and the remaining survivors have fled to space in search of a new habitable planet"
+          details="As you begin your new journey on this planet, you embark on a mission to collect soil, air, and water samples to analyze and determine if the planet is viable for humanity. The tutorial phase of the game will teach you how to analyze the soil. The soil appears poor and dangerous, Jacob will have to fight to get the ship back in working order until he can take off from this planet and find another habitable planet. Jacob's survival depends on your ability to use limited resources efficiently and your determination to find a solution to leave this planet. Get ready for an epic adventure as you fight for survival in the vast reaches of space."
+          image="/assets/SpaceScape.png"
+          link="https://spacescape.vercel.app/"
+          github="https://github.com/thomas-rooty/spacescape"
+          tools={['Next.js', 'R3/Fiber', 'Zustand', 'Blender']}
+        />
+        <Project
           title="3D Interactive Portfolio"
           description="A 3D interactive portfolio built with React Three Fiber and Three.js."
           details="Made for fun, experimentation, and to learn more about 3D rendering in a web context. This website has been built with React Three Fiber, Three.js and @react-three/cannon. It is a 3D game-alike interactive portfolio that allows you to navigate through the projects and see the details of each project using a controllable tricycle. It also has a dark mode and a light mode, and many other fun features that you can discover by yourself."
@@ -42,15 +51,6 @@ const Projects = () => {
           link="https://spacescape.vercel.app/"
           github="https://github.com/thomas-rooty/spacescape-novel"
           tools={['React Native', 'Zustand', 'Expo', 'Express', 'MongoDB']}
-        />
-        <Project
-          title="Spacescape"
-          description="A survival game set in the year 2300 where the Earth has become uninhabitable and the remaining survivors have fled to space in search of a new habitable planet"
-          details="As you begin your new journey on this planet, you embark on a mission to collect soil, air, and water samples to analyze and determine if the planet is viable for humanity. The tutorial phase of the game will teach you how to analyze the soil. The soil appears poor and dangerous, Jacob will have to fight to get the ship back in working order until he can take off from this planet and find another habitable planet. Jacob's survival depends on your ability to use limited resources efficiently and your determination to find a solution to leave this planet. Get ready for an epic adventure as you fight for survival in the vast reaches of space."
-          image="/assets/SpaceScape.png"
-          link="https://spacescape.vercel.app/"
-          github="https://github.com/thomas-rooty/spacescape"
-          tools={['Next.js', 'R3/Fiber', 'Zustand', 'Blender']}
         />
         <Project
           title="NEOIM Sentry"
