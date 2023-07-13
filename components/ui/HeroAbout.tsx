@@ -11,9 +11,9 @@ const HeroAbout = () => {
         <div className={styles.heroContent}>
           <h1 className={styles.heroTitle}>Hi, Thomas here</h1>
           <p className={styles.heroText}>
-            Passionate about IA, web development and 3D.
+            Passionate about web development, AI and 3D.
             <br />
-            I also enjoy riding my bike a specific way, so I'm used to fail and repeat until I succeed,
+            I also enjoy riding my bike a unique way, so I'm used to fail and repeat until I succeed,
             <br />
             even if sometimes, it can hurt mentally or physically!
           </p>
