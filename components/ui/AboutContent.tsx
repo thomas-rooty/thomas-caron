@@ -5,7 +5,7 @@ const AboutContent = () => {
     <div className={styles.container}>
       <h1 className={styles.title}>From 3D Programming to Fullstack Web Development</h1>
       <p className={styles.description}>
-        I'm Thomas, 21 years old. Since my young age around 8, I started learning about 3D so I could add my own models and monsters into my favorite childhood game. Through that, I learned how to use
+        I'm Thomas, 22 years old. Since my young age around 8, I started learning about 3D so I could add my own models and monsters into my favorite childhood game. Through that, I learned how to use
         3D software such as Blender, 3DS Max, Maya, and ZBrush. I also started learning how to code, first with LUA that allowed me to create my own scripts for the game and having a first approach to
         programming.
       </p>
