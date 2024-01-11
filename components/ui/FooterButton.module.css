@@ -1,18 +1,27 @@
+.footer__icon {
+    height: 4rem;
+}
+
 .footer__icon > a {
-  width: 100%;
-  margin: 0 0.33rem;
-  padding: 1rem 1rem 0.8rem;
-  border: 1px solid #fff;
-  transition: all .2s ease-in-out;
+    width: 100%;
+    margin: 0 0.33rem;
+    padding: 1rem 1rem 0.8rem;
+    border: 1px solid #000;
+    transition: all .2s ease-in-out;
 }
 
 .footer__icon > a:hover {
-  background-color: #24201d;
-  border-color: #a6a13b;
+    border-color: #a6a13b;
+    background-color: #24201d;
+}
+
+.footer__icon > a:hover .icon {
+    filter: invert(1);
 }
 
 .icon {
-  filter: invert(1);
-  width: 1.1rem;
-  height: 1.1rem;
+    filter: invert(0);
+    width: 1.1rem;
+    height: 1.1rem;
+    transition: all .2s ease-in-out;
 }

@@ -10,8 +10,8 @@ const NavigationBar = () => {
         </Link>
       </div>
       <div className={styles.nav__links}>
-        <Link href={"/projects"}>PROJECTS</Link>
-        <Link href={"/about"}>ABOUT</Link>
+        <Link href={"/projects"}>Projects</Link>
+        <Link href={"/about"}>About me</Link>
       </div>
     </nav>
   )
