@@ -3,9 +3,9 @@ import styles from './AboutContent.module.css'
 const AboutContent = () => {
   return (
     <div className={styles.container}>
-      <h1 className={styles.title}>From 3D Programming to Fullstack Web Development</h1>
+      <h1 className={styles.title}>Building things for the web, softwares and APIs.</h1>
       <p className={styles.description}>
-        I'm Thomas, 22 years old. Since my young age around 8, I started learning about 3D so I could add my own models and monsters into my favorite childhood game. Through that, I learned how to use
+        I'm Thomas, 23 years old. Since my young age around 8, I started learning about 3D so I could add my own models and monsters into my favorite childhood game Dragonica. Through that, I learned how to use
         3D software such as Blender, 3DS Max, Maya, and ZBrush. I also started learning how to code, first with LUA that allowed me to create my own scripts for the game and having a first approach to
         programming.
       </p>
@@ -26,7 +26,7 @@ const AboutContent = () => {
         Creating 3D websites and assets with Three.js bundled in React Three Fiber, using the Next.js framework, is something I really enjoy doing. I'm also interested in learning more about the
         backend and the DevOps side of things, this site was made with Next.js and deployed on Vercel. Specifically Next.js 13 with the new App folder structure and the new Image component.
       </p>
-      <p className={styles.description}>To see more of my work, you can check out my projects page or my GitHub profile.</p>
+      <p className={styles.description}>To see more of my work, you can check out my projects up here, or my GitHub profile.</p>
     </div>
   )
 }

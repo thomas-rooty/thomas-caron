@@ -27,17 +27,21 @@
 }
 
 .name, .desc {
-  font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Montserrat', 'Helvetica Neue', Arial, sans-serif;
   color: black;
   font-weight: 300;
   margin: 0;
   text-align: start;
 }
 
+.thomas {
+  color: #790000;
+}
+
 .buttons {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-start;
   margin-top: 1rem;
 }
 

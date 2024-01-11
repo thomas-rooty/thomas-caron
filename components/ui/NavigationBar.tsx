@@ -5,13 +5,13 @@ const NavigationBar = () => {
   return (
     <nav className={styles.nav}>
       <div className={styles.nav__logo}>
-        <Link href="/">
-          Thomas Caron <b>Portfolio</b>
+        <Link href="#">
+          web.<b>tcaron</b>.fr
         </Link>
       </div>
       <div className={styles.nav__links}>
-        <Link href={"/projects"}>Projects</Link>
-        <Link href={"/about"}>About me</Link>
+        <Link href={"#projects"}>Projects</Link>
+        <Link href={"#about"}>About me</Link>
       </div>
     </nav>
   )

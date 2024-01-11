@@ -10,9 +10,13 @@
   color: black;
 }
 
+.hero {
+  position: relative;
+}
+
 .heroImage {
   margin-top: 3rem;
-  height: 450px;
+  height: 50vh;
   width: 100vw;
   object-fit: cover;
   filter: brightness(45%);
@@ -26,7 +30,7 @@
 
 .heroTitle {
   color: white;
-  font-size: 2em;
+  font-size: 2.5em;
   font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
   font-weight: 350;
 }

@@ -1,9 +1,12 @@
 .footer {
-    position: absolute;
+    position: fixed;
     left: 0;
     top: 50%;
     transform: translateY(-50%);
-    padding: 0.5rem;
+    padding: 3rem 0.5rem 0.5rem;
+    z-index: 1;
+    background: white;
+    border-radius: 0 1rem 1rem 0
 }
 
 .footer__links {
