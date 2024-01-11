@@ -9,7 +9,7 @@ const Header = () => {
         <div className={styles.name__desc}>
           <h1 className={styles.name}>Thomas Caron</h1>
           <p className={styles.desc}>
-            Fullstack Web Developer, 3D Programmer, <br />
+            Software Engineer, 3D Programmer, <br />
             Street Trial Athlete
           </p>
         </div>

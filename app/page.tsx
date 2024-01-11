@@ -1,6 +1,7 @@
 import styles from './page.module.css'
 import Header from '../components/ui/Header'
 import Footer from '../components/ui/Footer'
+import Projects from './projects/page'
 
 const Home = () => {
   return (
@@ -8,9 +9,12 @@ const Home = () => {
       <div className={styles.main}>
         <Header />
       </div>
-      <footer>
+      <nav>
         <Footer />
-      </footer>
+      </nav>
+      <main>
+        <Projects />
+      </main>
     </div>
   )
 }

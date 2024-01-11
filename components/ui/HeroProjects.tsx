@@ -8,7 +8,7 @@ const HeroProjects = () => {
   return (
     <>
       <div className={styles.hero}>
-        <Image src={ProjectsBackground} className={styles.heroImage} alt="La Defense" quality={100} />
+        <Image src={ProjectsBackground} className={styles.heroImage} alt="R3F World" quality={100} />
         <div className={styles.heroContent}>
           <h1 className={styles.heroTitle}>Featured Work</h1>
           <p className={styles.heroText}>
@@ -21,10 +21,10 @@ const HeroProjects = () => {
               <h2>Toolkit</h2>
             </div>
             <div className={`${styles.tools} ${a.cssanimation} ${a.sequence} ${a.fadeInLeft}`}>
-              <ToolButton tools={['HTML', 'CSS', 'JavaScript', 'TypeScript', 'Python']} />
+              <ToolButton tools={['JS/TypeScript', 'Python', 'PHP', 'HTML', 'CSS']} />
             </div>
             <div className={`${styles.tools} ${a.cssanimation} ${a.sequence} ${a.fadeInLeft}`}>
-              <ToolButton tools={['Next', 'React', 'ThreeJS (R3F)', 'Node', 'Express']} />
+              <ToolButton tools={['Next.js', 'React', 'Three.js', 'Node.js', 'Socket.io/uWs', 'Tensorflow']} />
             </div>
           </div>
         </div>

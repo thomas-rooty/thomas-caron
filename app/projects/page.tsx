@@ -8,22 +8,31 @@ const Projects = () => {
       <HeroProjects />
       <div className={styles.projects}>
         <Project
+          title="Spacescape"
+          description="A multiplayer survival game, powered by WebGL (Three.js) set in the year 2300 where the Earth has become uninhabitable and the remaining survivors have fled to space in search of a new habitable planet"
+          details="As you begin your new journey on this planet, you embark on a mission to collect soil, air, and water samples to analyze and determine if the planet is viable for humanity. The tutorial phase of the game will teach you how to analyze the soil. The soil appears poor and dangerous, Jacob will have to fight to get the ship back in working order until he can take off from this planet and find another habitable planet. Jacob's survival depends on your ability to use limited resources efficiently and your determination to find a solution to leave this planet. Get ready for an epic adventure as you fight for survival in the vast reaches of space."
+          image="/assets/Spacescape-2.png"
+          link="https://spacescape.vercel.app/"
+          github="https://github.com/thomas-rooty/spacescape"
+          tools={['Next.js', 'Three.js', 'Socket.io', 'Blender']}
+        />
+        <Project
           title="TrackWatch"
           description="A website that allows you to track your favorite TV shows and never miss an episode again."
           details="TrackWatch is an app that helps you monitor your favorite shows, movies, and anime. With TrackWatch, you'll never forget where you left off, how many episodes you have left, or when the next episode is. Plus, with our progress tracker, you'll always know how close you are to completing your favorite series."
-          image="/assets/TrackWatch.png"
+          image="/assets/Trackwatch-2.png"
           link="https://trackwatch.live/"
           github="https://github.com/thomas-rooty/trackwatch"
-          tools={['Next.js', 'Zustand', 'Supabase']}
+          tools={['Next.js', 'Auth.js', 'Zustand', 'Supabase']}
         />
         <Project
-          title="Spacescape"
-          description="A survival game set in the year 2300 where the Earth has become uninhabitable and the remaining survivors have fled to space in search of a new habitable planet"
-          details="As you begin your new journey on this planet, you embark on a mission to collect soil, air, and water samples to analyze and determine if the planet is viable for humanity. The tutorial phase of the game will teach you how to analyze the soil. The soil appears poor and dangerous, Jacob will have to fight to get the ship back in working order until he can take off from this planet and find another habitable planet. Jacob's survival depends on your ability to use limited resources efficiently and your determination to find a solution to leave this planet. Get ready for an epic adventure as you fight for survival in the vast reaches of space."
-          image="/assets/SpaceScape.png"
-          link="https://spacescape.vercel.app/"
-          github="https://github.com/thomas-rooty/spacescape"
-          tools={['Next.js', 'R3/Fiber', 'Zustand', 'Blender']}
+          title="What the Brick ?!"
+          description="A mobile app, powered by React Native, that allows you to find which LEGO set you can build with the bricks you have taking a picture !"
+          details="What the F.. Brick ?! Identify Lego bricks in a picture and guess their types. It serves as a powerful tool for Lego enthusiasts and builders, offering a way to digitally catalog and recognize Lego pieces directly laying on a dark mat !"
+          image="/assets/WhatTheBrick.png"
+          link="https://github.com/thomas-rooty/what-the-brick"
+          github="https://github.com/thomas-rooty/what-the-brick"
+          tools={['React Native', 'Tensorflow', 'OpenCV']}
         />
         <Project
           title="3D Interactive Portfolio"
@@ -35,12 +44,30 @@ const Projects = () => {
           tools={['Next.js', 'R3/Fiber', 'R3/Cannon', 'Zustand']}
         />
         <Project
+          title="Ch(ild)Ad(ult) AI Detector"
+          description="An API that serves serious purposes ! Powered by its AI made in Tensorflow, that allows you to detect if a person is an adult or a child."
+          details="Prototype API that predicts the class of an image as either 'adult' or 'child' using a pre-trained VGG16 convolutional neural network model. The model was trained on a dataset of images containing adults and children using transfer learning."
+          image="/assets/Chad.png"
+          link="https://github.com/thomas-rooty/chad-detector"
+          github="https://github.com/thomas-rooty/chad-detector"
+          tools={['Flask', 'Tensorflow', 'Keras']}
+        />
+        <Project
           title="LACXFILMS"
           description="A website for an independent filmmaker, pilot drone, and photographer."
           details="This website was built for a friend of mine who is a filmmaker, pilot drone, and photographer. The videos showcased on the website are grabbed on a private playlist of his YouTube channel when the website is loading, which allows Kevin to be independant when he wants to showcase new work. It is a simple website that allows him to showcase his work and contact him."
           image="/assets/LacxFilms.png"
           link="https://lacxfilms.com/"
           github="https://github.com/thomas-rooty/klacroix"
+          tools={['Next.js', 'Formspree', 'React Parallax', 'Parcel']}
+        />
+        <Project
+          title="Quentin HEBERT's Website"
+          description="A portfolio website for a photographer."
+          details="Same as the previous project, this website was built for a friend of mine who is a photographer. The design was made by him, and I coded it, you can even see some street trial pictures! Make sure to contact him if you need a photographer for your next project."
+          image="/assets/QuentinHebert.png"
+          link="https://quentinmaker.fr/"
+          github="https://github.com/thomas-rooty/qhebert-portfolio/"
           tools={['Next.js', 'Formspree', 'React Parallax', 'Parcel']}
         />
         <Project
@@ -60,15 +87,6 @@ const Projects = () => {
           link="https://neoim-sentry.vercel.app/"
           github="https://github.com/thomas-rooty/neoim-sentry"
           tools={['Next.js', 'NASA Sentry API', 'Tensorflow']}
-        />
-        <Project
-          title="Quentin HEBERT's Website"
-          description="A portfolio website for a photographer."
-          details="Same as the previous project, this website was built for a friend of mine who is a photographer. The design was made by him, and I coded it, you can even see some street trial pictures! Make sure to contact him if you need a photographer for your next project."
-          image="/assets/QuentinHebert.png"
-          link="https://quentinmaker.fr/"
-          github="https://github.com/thomas-rooty/qhebert-portfolio/"
-          tools={['Next.js', 'Formspree', 'React Parallax', 'Parcel']}
         />
         <Project
           title="NextJS Third Person View World"
