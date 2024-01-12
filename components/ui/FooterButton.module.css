@@ -25,3 +25,9 @@
     height: 1.1rem;
     transition: all .2s ease-in-out;
 }
+
+@media screen and (max-width: 1050px) {
+    .footer__icon {
+        height: fit-content;
+    }
+}
