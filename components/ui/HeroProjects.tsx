@@ -24,7 +24,10 @@ const HeroProjects = () => {
               <ToolButton tools={['JS/TypeScript', 'Python', 'PHP', 'HTML', 'CSS']} />
             </div>
             <div className={`${styles.tools} ${a.cssanimation} ${a.sequence} ${a.fadeInLeft}`}>
-              <ToolButton tools={['Next.js', 'React', 'Three.js', 'Node.js', 'Socket.io/uWs', 'Tensorflow']} />
+              <ToolButton tools={['Node.js', 'Socket.io/uWs', 'Tensorflow']} />
+            </div>
+            <div className={`${styles.tools} ${a.cssanimation} ${a.sequence} ${a.fadeInLeft}`}>
+              <ToolButton tools={['Next.js', 'React', 'Three.js']} />
             </div>
           </div>
         </div>

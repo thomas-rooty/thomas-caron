@@ -7,7 +7,7 @@ body {
   font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
   background-color: #fffcfc;
   overflow-x: hidden;
-  overflow: overlay;
+  overflow-y: auto;
 }
 
 @font-face {
@@ -29,7 +29,8 @@ a {
 }
 
 ::-webkit-scrollbar {
-  width: 4px;
+  width: 6px;
+  position: absolute;
 }
 ::-webkit-scrollbar-thumb {
   background: #3b2323;

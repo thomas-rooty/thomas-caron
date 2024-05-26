@@ -61,4 +61,8 @@
     padding-left: 1rem;
     padding-right: 1rem;
   }
+
+  .toolTitle {
+    margin-top: 3rem;
+  }
 }
