@@ -57,7 +57,7 @@ const Projects = () => {
           description="A website for an independent filmmaker, pilot drone, and photographer."
           details="This website was built for a friend of mine who is a filmmaker, pilot drone, and photographer. The videos showcased on the website are grabbed on a private playlist of his YouTube channel when the website is loading, which allows Kevin to be independant when he wants to showcase new work. It is a simple website that allows him to showcase his work and contact him."
           image="/assets/LacxFilms.png"
-          link="https://lacxfilms.com/"
+          link="https://lacxfilms.tcaron.fr/"
           github="https://github.com/thomas-rooty/klacroix"
           tools={['Next.js', 'Formspree', 'React Parallax', 'Parcel']}
         />
